@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = URI_API_PATH.USER_API)
-public class AlumnResourse extends AbstractRestController<Usuario, Long> {
+public class UserResourse extends AbstractRestController<Usuario, Long> {
 
     @Autowired
     UserRepository repository;
